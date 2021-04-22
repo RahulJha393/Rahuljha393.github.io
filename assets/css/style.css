@@ -265,8 +265,21 @@ h1, h2, h3, h4, h5, h6 {
   background: url("../img/hero-bg.jpg") top right no-repeat;
   background-size: cover;
   position: relative;
+  visibility:hidden;/* Edited*/
 }
-
+/*rahul p1 start*/
+@media(min-width:608px ){
+  #hero{
+    visibility:visible ;
+  }
+}
+@media(max-width:608px ){
+  #hero{
+    visibility:visible ;
+    background: url("../img/bg6.jpg");
+  }
+}
+/*rahul p1 ends*/
 @media (min-width: 992px) {
   #hero {
     padding-left: 160px;

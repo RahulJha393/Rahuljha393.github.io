@@ -1201,3 +1201,33 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+/*  */
+
+.badg {
+  color: #fff !important;
+  border-radius: 25px;
+  padding: 4.2px 7.8px;
+  color: white;
+  font-size: 0.85em;
+}
+
+.G {
+  background-color: RGBA(25, 135, 84) !important;
+
+}
+
+.P {
+  background-color: RGBA(13,110,253)!important;
+}
+
+.R {
+  background-color: RGBA(220,53,69)!important;
+}
+
+.D {
+  background-color: RGBA(33,37,41)!important;
+}
+
+.Fade{
+  background-color: RGBA(108,117,125)!important;
+}
